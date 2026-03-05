@@ -426,7 +426,7 @@ function openGallery(){
 
 document.getElementById("reasons-section").classList.add("hidden");
 document.getElementById("gallery-section").classList.remove("hidden");
-
+window.scrollTo(0,0);
 document.getElementById("song").play();
 
 }
@@ -436,6 +436,7 @@ function backToReasons(){
 document.getElementById("gallery-section").classList.add("hidden");
 document.getElementById("reasons-section").classList.remove("hidden");
 
+window.scrollTo(0,0);
 }
 function openSurprise(){
 
@@ -452,6 +453,7 @@ function openThank(){
 document.getElementById("gallery-section").classList.add("hidden");
 document.getElementById("thank-section").classList.remove("hidden");
 
+window.scrollTo(0,0);
 }
 
 function backToGallery(){
@@ -459,6 +461,7 @@ function backToGallery(){
 document.getElementById("thank-section").classList.add("hidden");
 document.getElementById("gallery-section").classList.remove("hidden");
 
+window.scrollTo(0,0);
 }
 </script>
 
